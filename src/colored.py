@@ -61,7 +61,6 @@ class BoardUI(Widget):
         self.l.remove(x)
         
         t = (x[1]*20,x[0]*20)
-        print t
         self.h.savePosition(t)
         
         with self.canvas:
